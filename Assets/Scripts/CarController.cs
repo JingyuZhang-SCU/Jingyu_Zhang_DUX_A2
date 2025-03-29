@@ -5,10 +5,11 @@ public class CarController : MonoBehaviour
     private Vector3 initialPosition;
     private Quaternion initialRotation;
     private Vector3 initialScale;
+    private Vector3 initialColliderSize;
 
     public float rotationSpeed = 90f;
-    public float moveSpeed = 2f;
-    public float scaleSpeed = 0.05f;
+    public float moveSpeed = 5f;
+    public float scaleSpeed = 0.1f;
     public float moveRange = 15f;
 
     private void Start()
@@ -38,6 +39,16 @@ public class CarController : MonoBehaviour
         newScale = Vector3.Max(newScale, Vector3.one * 0.05f);
         newScale = Vector3.Min(newScale, Vector3.one * 1f);
         transform.localScale = newScale;
+
+        float currentScale = newScale.y;
+        float newY = 6.8f * currentScale - 0.04f;
+        transform.position = new Vector3(
+            transform.position.x,
+            newY,
+            transform.position.z
+        );
+
+
     }
 
     public void ResetToInitial()

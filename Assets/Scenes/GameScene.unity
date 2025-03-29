@@ -6779,7 +6779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 90
   moveSpeed: 5
-  scaleSpeed: 0.05
+  scaleSpeed: 0.1
   moveRange: 15
 --- !u!1001 &1995102097
 PrefabInstance:
