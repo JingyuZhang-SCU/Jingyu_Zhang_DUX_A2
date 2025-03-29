@@ -304,7 +304,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 50013646}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1915029456}
+        m_TargetAssemblyTypeName: CarController, Assembly-CSharp
+        m_MethodName: ResetToInitial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &50013646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,7 +361,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127528
+  m_Name: pb_Mesh-142246
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -513,7 +525,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-57028
+  m_Name: pb_Mesh-142094
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -967,7 +979,7 @@ GameObject:
   - component: {fileID: 213665178}
   - component: {fileID: 213665177}
   m_Layer: 5
-  m_Name: Clockwise
+  m_Name: Counterclockwise
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1037,7 +1049,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 213665178}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1915029456}
+        m_TargetAssemblyTypeName: CarController, Assembly-CSharp
+        m_MethodName: Rotate
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &213665178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1166,7 +1190,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127486
+  m_Name: pb_Mesh-142204
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1407,7 +1431,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 282738069}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1915029456}
+        m_TargetAssemblyTypeName: CarController, Assembly-CSharp
+        m_MethodName: Scale
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &282738069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1529,7 +1565,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 374176269}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1915029456}
+        m_TargetAssemblyTypeName: CarController, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &374176269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1709,7 +1757,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127500
+  m_Name: pb_Mesh-142218
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2149,7 +2197,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127472
+  m_Name: pb_Mesh-142190
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2313,7 +2361,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127556
+  m_Name: pb_Mesh-142274
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2882,7 +2930,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127430
+  m_Name: pb_Mesh-142148
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3551,7 +3599,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127542
+  m_Name: pb_Mesh-142260
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3715,7 +3763,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-57014
+  m_Name: pb_Mesh-142080
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3956,7 +4004,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 946022127}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1915029456}
+        m_TargetAssemblyTypeName: CarController, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &946022127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4931,7 +4991,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1274543758}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1915029456}
+        m_TargetAssemblyTypeName: CarController, Assembly-CSharp
+        m_MethodName: Scale
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1274543758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5111,7 +5183,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127514
+  m_Name: pb_Mesh-142232
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5275,7 +5347,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127458
+  m_Name: pb_Mesh-142176
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6175,7 +6247,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127416
+  m_Name: pb_Mesh-142134
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6339,7 +6411,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127444
+  m_Name: pb_Mesh-142162
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6510,7 +6582,7 @@ GameObject:
   - component: {fileID: 1905718784}
   - component: {fileID: 1905718783}
   m_Layer: 5
-  m_Name: Counterclockwise
+  m_Name: Clockwise
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6580,7 +6652,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1905718784}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1915029456}
+        m_TargetAssemblyTypeName: CarController, Assembly-CSharp
+        m_MethodName: Rotate
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 1
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1905718784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6681,6 +6765,22 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
   m_PVRTiledBaking: 0
+--- !u!114 &1915029456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5504701895345790203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a8f3c1bf3a48c4dab59f8c2da723a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 90
+  moveSpeed: 5
+  scaleSpeed: 0.05
+  moveRange: 15
 --- !u!1001 &1995102097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6708,25 +6808,33 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 418111044}
+    - target: {fileID: 902159137392342885, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 760
+      objectReference: {fileID: 0}
     - target: {fileID: 1267958610436987613, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1868523812}
+    - target: {fileID: 1267958610436987613, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 547
+      objectReference: {fileID: 0}
     - target: {fileID: 1562759415814544330, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1562759415814544330, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.15146
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1562759415814544330, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15146
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1562759415814544330, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.15146
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1562759415814544330, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6784,6 +6892,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1373769402}
+    - target: {fileID: 2195125812250223082, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 669
+      objectReference: {fileID: 0}
     - target: {fileID: 2524548757695368249, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6792,6 +6904,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 275256666}
+    - target: {fileID: 2557521270582416434, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 757
+      objectReference: {fileID: 0}
     - target: {fileID: 2608734676302908217, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6800,10 +6916,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 792189950}
+    - target: {fileID: 3147081603366368177, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 975
+      objectReference: {fileID: 0}
     - target: {fileID: 3301179410750391892, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 684301060}
+    - target: {fileID: 3301179410750391892, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 562
+      objectReference: {fileID: 0}
     - target: {fileID: 3499782513709765807, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6816,14 +6940,26 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 940750710}
+    - target: {fileID: 3879646550425136615, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 559
+      objectReference: {fileID: 0}
     - target: {fileID: 3882642081761671614, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 634969059}
+    - target: {fileID: 3882642081761671614, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 757
+      objectReference: {fileID: 0}
     - target: {fileID: 4143535236747891313, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 70215462}
+    - target: {fileID: 4143535236747891313, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 709
+      objectReference: {fileID: 0}
     - target: {fileID: 4856789331158608815, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6840,6 +6976,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1449613454}
+    - target: {fileID: 5279857211362237068, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 754
+      objectReference: {fileID: 0}
     - target: {fileID: 5390949295219387607, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6847,6 +6987,10 @@ PrefabInstance:
     - target: {fileID: 5504701894035737450, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Name
       value: Car
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504701894035737450, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5935919071856992899, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
@@ -6872,6 +7016,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2063269808}
+    - target: {fileID: 6922345291865805563, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1059
+      objectReference: {fileID: 0}
     - target: {fileID: 7065423416827272851, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -6888,6 +7036,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1790702853}
+    - target: {fileID: 8695780988206392833, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+      propertyPath: m_VersionIndex
+      value: 654
+      objectReference: {fileID: 0}
     - target: {fileID: 8997481330604411091, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -7109,7 +7261,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-127402
+  m_Name: pb_Mesh-142120
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7345,4 +7497,9 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 7382548038779313145, guid: 454f30cd4896e4843b6837a821ec1ed4, type: 3}
   m_PrefabInstance: {fileID: 4533223425418427800}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5504701895345790203 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5504701894035737450, guid: e6b0d653c880cd543a97baadc50c086b, type: 3}
+  m_PrefabInstance: {fileID: 1995102097}
   m_PrefabAsset: {fileID: 0}
