@@ -695,7 +695,6 @@ GameObject:
   - component: {fileID: 133141046}
   - component: {fileID: 133141045}
   - component: {fileID: 133141044}
-  - component: {fileID: 133141047}
   m_Layer: 5
   m_Name: Return
   m_TagString: Untagged
@@ -768,10 +767,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 7419720573a8b074d99343ca76c510b4, type: 3}
-        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
-        m_MethodName: set_name
-        m_Mode: 5
+      - m_Target: {fileID: 814254041}
+        m_TargetAssemblyTypeName: SceneSwitcher, Assembly-CSharp
+        m_MethodName: ReturnToMainMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -818,19 +817,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133141042}
   m_CullTransparentMesh: 1
---- !u!114 &133141047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 133141042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd4064fd76dec294e9e5deb5c833f582, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneLoader: {fileID: 814254041}
 --- !u!1 &209077075
 GameObject:
   m_ObjectHideFlags: 0
@@ -3173,7 +3159,7 @@ GameObject:
   - component: {fileID: 814254040}
   - component: {fileID: 814254041}
   m_Layer: 5
-  m_Name: SceneLoaderManager
+  m_Name: SceneSwitcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3208,7 +3194,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 814254039}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7419720573a8b074d99343ca76c510b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c48517aa5f862749a6c5a5714d86fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &825518034
