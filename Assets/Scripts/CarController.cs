@@ -7,9 +7,9 @@ public class CarController : MonoBehaviour
     private Vector3 initialScale;
     private Vector3 initialColliderSize;
 
-    public float rotationSpeed = 90f;
-    public float moveSpeed = 5f;
-    public float scaleSpeed = 0.1f;
+    public float rotationSpeed = 500f;
+    public float moveSpeed = 50f;
+    public float scaleSpeed = 1f;
     public float moveRange = 15f;
 
     private void Start()
@@ -47,8 +47,6 @@ public class CarController : MonoBehaviour
             newY,
             transform.position.z
         );
-
-
     }
 
     public void ResetToInitial()
